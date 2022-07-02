@@ -1,0 +1,105 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)),url('../immages/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Source Sans Pro", Helvetica, sans-serif ;
+}
+#flex_main_container
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#flex_container
+{
+    width: 400px;
+    height: 450px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#flex_container header
+{
+    padding: 60px 0px 20px;
+}
+#flex_container header figure hr
+{
+    position: relative;
+    top: 75px;
+    z-index: 1;
+}
+#flex_container header figure img
+{
+    border: 10px solid white;
+    border-radius: 100%;
+    position: relative;
+    z-index: 2;
+
+}
+#flex_container main
+{
+    padding: 10px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+#flex_container main h1
+{
+    font-size: 1.85em;
+    font-weight: lighter;
+    color: #414f575e;
+    padding: 10px;
+    letter-spacing: 0.2em;
+}
+#flex_container main p
+{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    margin: 20px 0px;
+    color: #414f576e;
+    letter-spacing: 0.2em;
+    font-size: small;
+}
+#flex_container footer
+{
+    width: 80%;
+    padding: 10px;
+    background-color: #fff; 
+    margin: 0 auto; 
+}
+#flex_container footer aside
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#flex_container footer aside i
+{
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.144);
+    border-radius: 100%;
+    font-size: 30px;
+    color: #414f578a;
+    transition: ease all 1s;
+
+}
+#flex_container footer aside div i:hover
+{
+    border: 1px solid red;
+    color: red;
+    transform: rotate(360deg);
+
+}
+
+
+
